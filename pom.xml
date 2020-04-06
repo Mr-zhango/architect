@@ -12,6 +12,7 @@
     <modules>
         <module>01_multi_thread</module>
         <module>02_multi_thread</module>
+        <module>03_multi_thread_lock</module>
     </modules>
 
     <dependencies>
