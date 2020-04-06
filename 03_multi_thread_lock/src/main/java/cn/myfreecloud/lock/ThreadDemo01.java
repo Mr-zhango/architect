@@ -1,4 +1,4 @@
-package cn.myfreecloud;
+package cn.myfreecloud.lock;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
