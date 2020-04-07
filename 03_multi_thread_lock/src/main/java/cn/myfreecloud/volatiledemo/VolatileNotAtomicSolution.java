@@ -29,6 +29,9 @@ public class VolatileNotAtomicSolution {
 
 class VolatileNotAtomicSolutionThread extends Thread {
 
+    /**
+     * 加上static是为了保证10个线程使用同一个变量
+     */
     private static AtomicInteger atomicInteger = new AtomicInteger(0);
 
     @Override
