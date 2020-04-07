@@ -1,4 +1,4 @@
-package cn.myfreecloud.guardthread;
+package cn.myfreecloud.daemonthread;
 
 /**
  * @author: zhangyang
