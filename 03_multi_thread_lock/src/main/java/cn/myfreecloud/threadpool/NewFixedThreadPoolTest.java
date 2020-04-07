@@ -8,7 +8,7 @@ import java.util.concurrent.Executors;
  * @date: 2020/4/7 17:54
  * @description:
  */
-public class NewFixedThreadTest {
+public class NewFixedThreadPoolTest {
     public static void main(String[] args) {
         // 最大线程数控制在3个,其他线程在等待执行
         ExecutorService newFIxedThreadPool = Executors.newFixedThreadPool(3);
