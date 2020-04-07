@@ -13,6 +13,7 @@
         <module>01_multi_thread</module>
         <module>02_multi_thread</module>
         <module>03_multi_thread_lock</module>
+        <module>04_SpringIOC</module>
     </modules>
 
     <dependencies>
@@ -20,6 +21,21 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.1.43</version>
+        </dependency>
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.9</version>
         </dependency>
     </dependencies>
 
