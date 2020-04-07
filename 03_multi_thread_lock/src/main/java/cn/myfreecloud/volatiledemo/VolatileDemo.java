@@ -4,6 +4,8 @@ package cn.myfreecloud.volatiledemo;
  * @author: zhangyang
  * @date: 2020/4/7 15:25
  * @description: Volatile关键字讲解
+ * Volatile 关键字可以使本地内存中数据的变化及时同步到主内存,并且能把更新后的值同步到其他本地内存中去
+ * 但是 Volatile 不能保证原子性
  */
 public class VolatileDemo {
     public static void main(String[] args) throws InterruptedException {
