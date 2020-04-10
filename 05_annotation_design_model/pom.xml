@@ -9,5 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>01_multi_thread</artifactId>
+    <artifactId>05_annotation_design_model</artifactId>
+
+
 </project>

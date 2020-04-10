@@ -14,6 +14,7 @@
         <module>02_multi_thread</module>
         <module>03_multi_thread_lock</module>
         <module>04_SpringIOC</module>
+        <module>05_annotation_design_model</module>
     </modules>
 
     <dependencies>
@@ -38,5 +39,21 @@
             <version>3.9</version>
         </dependency>
     </dependencies>
+
+    <!-- 用来指定项目的版本 -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 
 </project>
