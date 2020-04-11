@@ -1,4 +1,4 @@
-package cn.myfreecloud.design;
+package cn.myfreecloud.design.signal;
 
 
 /**
