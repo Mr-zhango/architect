@@ -15,6 +15,7 @@
         <module>03_multi_thread_lock</module>
         <module>04_SpringIOC</module>
         <module>05_annotation_design_model</module>
+        <module>06_tcp_udp</module>
     </modules>
 
     <dependencies>

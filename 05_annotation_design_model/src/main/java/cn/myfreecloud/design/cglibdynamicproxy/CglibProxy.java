@@ -12,6 +12,9 @@ import java.lang.reflect.Method;
  * @author: zhangyang
  * @date: 2020/4/11 17:20
  * @description:
+ * cglib和jdk动态代理的区别
+ * cglib底层是借助asm来实现的(java字节码控制)
+ * Spring的AOP底层实现就是cglib的动态代理机制
  */
 public class CglibProxy implements MethodInterceptor {
 
