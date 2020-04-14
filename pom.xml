@@ -16,6 +16,7 @@
         <module>04_SpringIOC</module>
         <module>05_annotation_design_model</module>
         <module>06_tcp_udp</module>
+        <module>07_Distribute_Session</module>
     </modules>
 
     <dependencies>
