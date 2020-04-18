@@ -23,13 +23,6 @@ public class Singleton {
     // 当需要的才会被实例化
     private static Singleton singleton;
 
-    /**
-     * 反射也不能初始化了
-     */
-    private Singleton() {
-
-    }
-
     public static Singleton getSingleton() {
 
         if (singleton == null) {

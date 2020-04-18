@@ -17,6 +17,8 @@
         <module>05_annotation_design_model</module>
         <module>06_tcp_udp</module>
         <module>07_Distribute_Session</module>
+        <module>08_Distribute_Lock</module>
+        <module>09_SpringClould</module>
     </modules>
 
     <dependencies>
