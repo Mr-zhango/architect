@@ -1,4 +1,4 @@
-package cn.myfreecloud.design.signal;
+package cn.myfreecloud.design.single;
 
 /**
  * 懒汉式代码
