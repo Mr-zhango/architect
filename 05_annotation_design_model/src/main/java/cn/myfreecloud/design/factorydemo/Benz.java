@@ -1,4 +1,4 @@
-package cn.myfreecloud.design.factory;
+package cn.myfreecloud.design.factorydemo;
 
 /**
  * @author: zhangyang

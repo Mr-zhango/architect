@@ -1,4 +1,4 @@
-package cn.myfreecloud.design.factory;
+package cn.myfreecloud.design.factorydemo;
 
 public class CarFactory {
     static public Car createCar(String carName) {
