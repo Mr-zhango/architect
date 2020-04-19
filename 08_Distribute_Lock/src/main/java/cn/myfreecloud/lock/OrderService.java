@@ -5,7 +5,7 @@ public class OrderService implements Runnable {
 
     private OrderNumGenerator orderNumGenerator = new OrderNumGenerator();
 
-    private static Object object = new Object();
+    private Lock lock = new ZookeeperDistrbuteLock();
 
     public void run() {
         getOrderNumber();
@@ -16,12 +16,14 @@ public class OrderService implements Runnable {
 
         try {
 
-            synchronized (object){
-                Thread.sleep(50);
+               // 加锁
+                lock.getLock();
+                //Thread.sleep(1);
                 String orderNum = orderNumGenerator.orderNum();
 
                 System.out.println("线程名称" + Thread.currentThread().getName() + "获取生成的订单号为:" + orderNum);
-            }
+                // 解锁
+                lock.unLock();
 
         } catch (Exception e) {
 
