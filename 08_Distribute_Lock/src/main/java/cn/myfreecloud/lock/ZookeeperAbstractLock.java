@@ -4,7 +4,7 @@ package cn.myfreecloud.lock;
 import org.I0Itec.zkclient.ZkClient;
 
 /**
- * 将重复的代码进行抽取,具体业务由子类进行实现
+ * 将重复的代码进行抽取,具体业务由子类进行实现 使用模板方法设计模式来实现
  */
 public abstract class ZookeeperAbstractLock implements Lock {
 
